@@ -1,12 +1,69 @@
-# React + Vite
+# Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Movie Explorer** is a React-based web application that lets you explore movies, search for your favorite films, and add them to a favorites list. Built with the TMDB API, this app provides features like browsing popular movies, searching by title, and managing a personal collection of favorite movies.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Search for Movies**: Easily search for movies by title.
+- ❤️ **Favorites Management**: Add or remove movies to/from your favorites list.
+- 🌟 **Popular Movies**: View a list of popular movies on the homepage, fetched from the TMDB API.
+- ⚡ **State Management**: Uses React Context for managing the favorites list globally across the app.
+- 💾 **Persistent Favorites**: Your favorite movies are stored in local storage, so they persist even when the app is reloaded.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**: The frontend framework used to build the user interface.
+- **TMDB API**: To fetch movie data (popular and search-based).
+- **React Router**: For navigation between different pages (Home and Favorites).
+- **React Context**: For managing global state, like the favorites list.
+- **CSS**: For styling the application.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/lokeshgehlot/movie-explorer.git
+    cd movie-explorer
+    ```
+
+2. Install the required dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+    ```bash
+    npm start
+    ```
+
+4. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the app.
+
+## How to Use
+
+- **Home Page**: Displays a grid of popular movies fetched from the TMDB API. You can search for movies by typing the title in the search bar.
+- **Favorites Page**: View your saved favorite movies. You can add a movie to your favorites by clicking the heart icon on any movie in the grid, or remove it by clicking the same icon in the Favorites section.
+
+## Screenshots
+
+![Home Page](assets/screenshots/home-page.png)
+*Image showing the home page with a list of popular movies*
+
+![Favorites Page](assets/screenshots/favorites-page.png)
+*Image showing the favorites page with saved movies*
+
+## Contributing
+
+1. Fork the repository.
+2. Create your branch:  
+   `git checkout -b feature/your-feature`
+3. Commit your changes:  
+   `git commit -m 'Add new feature'`
+4. Push to the branch:  
+   `git push origin feature/your-feature`
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

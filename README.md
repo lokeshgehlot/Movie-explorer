@@ -47,10 +47,10 @@ To run this project locally, follow these steps:
 
 ## Screenshots
 
-![Home Page](assets/screenshots/home-page.png)
+![Home Page](src/assets/Screenshots/favorite-page.png)
 *Image showing the home page with a list of popular movies*
 
-![Favorites Page](assets/screenshots/favorites-page.png)
+![Favorites Page](src/assets/Screenshots/home-page.png)
 *Image showing the favorites page with saved movies*
 
 ## Contributing

@@ -64,6 +64,4 @@ To run this project locally, follow these steps:
    `git push origin feature/your-feature`
 5. Create a new Pull Request.
 
-## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
